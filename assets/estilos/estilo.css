@@ -33,8 +33,10 @@ nav#menu {
     margin: auto;
 }
 #logo {
-    margin: auto;
-    border: 1px solid black;
+    margin: auto;    
+}
+#logo img {
+    width: 80px;    
 }
 .pipe-menu {
     font-size: 2em;
