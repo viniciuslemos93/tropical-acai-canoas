@@ -8,14 +8,13 @@
     --fonte-menu: 'Paytone One', sans-serif;
     --fonte-conteudo: 'Contrail One', cursive;
     --fonte-1: 'Vast Shadow', cursive;
-
-    --cor1: #b300ff;
-    --cor2: #D30BD9;
-    --cor3: #F00084;    
+    
+    --cor1: #3c0a2f;
+    --cor2: #690E6B;
 }
 header {
-    background-color: #b300ff;
-    min-height: 10vh;
+    background-color: var(--cor1);
+    min-height: 15vh;
     width: 100%;    
     display: flex;
     text-align: center;    
@@ -36,7 +35,7 @@ nav#menu {
     margin: auto;    
 }
 #logo img {
-    width: 80px;    
+    width: 100px;    
 }
 .pipe-menu {
     font-size: 2em;
