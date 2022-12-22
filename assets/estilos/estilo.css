@@ -1,19 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Vast+Shadow&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 :root {    
-    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-menu: 'Paytone One', sans-serif;
     --fonte-conteudo: 'Contrail One', cursive;
     --fonte-1: 'Vast Shadow', cursive;
 
     --cor1: #b300ff;
     --cor2: #D30BD9;
-    --cor3: #F00084;
-    
+    --cor3: #F00084;    
 }
 header {
-    background-color: var(--cor1);
-    min-height: 20vh;    
-    width: 100%;
+    background-color: #b300ff;
+    min-height: 10vh;
+    width: 100%;    
+    display: flex;
+    text-align: center;    
+    
+}
+nav#menu a{
+    font-family: var(--fonte-menu);
+    text-decoration: none;
+    font-size: 2em;
+    padding: 15px;
+    color: white;
+    font-weight: bold;    
+}
+nav#menu {
+    margin: auto;
+}
+#logo {
+    margin: auto;
+    border: 1px solid black;
+}
+.pipe-menu {
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: var(--fonte-conteudo);
 }
