@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {    
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-conteudo: 'Contrail One', cursive;
+    --fonte-1: 'Vast Shadow', cursive;
+
+    --cor1: #b300ff;
+    --cor2: #D30BD9;
+    --cor3: #F00084;
+    
+}
+header {
+    background-color: var(--cor1);
+    min-height: 20vh;    
+    width: 100%;
+}
