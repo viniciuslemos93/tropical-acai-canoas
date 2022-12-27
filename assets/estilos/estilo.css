@@ -42,3 +42,22 @@ nav#menu {
     font-weight: bolder;
     font-family: var(--fonte-conteudo);
 }
+main {
+    max-width: 900px;
+    min-width: 320px;
+    margin: 10px auto 0 auto;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 992px;    
+    min-width: 320px;
+    padding: 10px 15px;
+    align-items: center;
+    margin: 0px 10px;
+    
+}
+.imagem img{
+    width: 30vh;
+    border-radius: 10px;
+}
