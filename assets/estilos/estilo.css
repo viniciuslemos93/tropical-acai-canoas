@@ -47,6 +47,13 @@ main {
     min-width: 320px;
     margin: 10px auto 0 auto;
 }
+.carrossel {
+    box-shadow: 10px 5px 20px var(--cor1);
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
 .container {
     display: flex;
     justify-content: space-evenly;
