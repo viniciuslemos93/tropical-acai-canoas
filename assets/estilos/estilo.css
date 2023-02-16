@@ -1,28 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 :root {    
-    --fonte-menu: 'Paytone One', sans-serif;
+    --fonte-menu: 'Noticia Text', serif;
     --fonte-conteudo: 'Contrail One', cursive;
     --fonte-1: 'Vast Shadow', cursive;
     
     --cor1: #3c0a2f;
     --cor2: #690E6B;
 }
+/*Estilização do cabeçalho do site*/
 header {
-    background-color: var(--cor1);    
-    width: 100%;    
+    background-image: url("../imagens/background-natural-acai.jpg");    
 }
 nav#menu a{
     font-family: var(--fonte-menu);
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 15px;
     color: white;
-    font-weight: bold;    
+    font-weight: bold;
 }
 nav#menu {
     margin: auto;
@@ -31,25 +32,22 @@ nav#menu {
     margin: auto;    
 }
 #logo img {
-    width: 100px;    
+    width: 150px;
+    border-radius: 75px;
 }
 .pipe-menu {
     font-size: 2em;
     font-weight: bolder;
+    color: white;
     font-family: var(--fonte-conteudo);
 }
+/*Estilização do corpo do site*/
 main {
     max-width: 900px;
     min-width: 320px;
     margin: 10px auto 0 auto;
 }
-.carrossel {
-    box-shadow: 10px 5px 20px var(--cor1);
-    overflow: hidden;
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-}
+
 .container {
     display: flex;
     justify-content: space-evenly;
