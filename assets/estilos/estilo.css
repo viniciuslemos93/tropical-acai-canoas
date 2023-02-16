@@ -13,12 +13,8 @@
     --cor2: #690E6B;
 }
 header {
-    background-color: var(--cor1);
-    min-height: 15vh;
+    background-color: var(--cor1);    
     width: 100%;    
-    display: flex;
-    text-align: center;    
-    
 }
 nav#menu a{
     font-family: var(--fonte-menu);
