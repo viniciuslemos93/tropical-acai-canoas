@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Vast+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 :root {    
     --fonte-menu: 'Noticia Text', serif;
     --fonte-conteudo: 'Contrail One', cursive;
-    --fonte-1: 'Vast Shadow', cursive;
+    --fonte-destaque: 'Fjalla One', sans-serif;
     
     --cor1: #3c0a2f;
     --cor2: #690E6B;
@@ -43,9 +43,9 @@ nav#menu {
 }
 /*Estilização do corpo do site*/
 main {
-    max-width: 900px;
+    max-width: 100%;
     min-width: 320px;
-    margin: 10px auto 0 auto;
+    
 }
 
 .container {
@@ -55,10 +55,16 @@ main {
     min-width: 320px;
     padding: 10px 15px;
     align-items: center;
-    margin: 0px 10px;
-    
+    margin: 0px 10px;    
 }
 .imagem img{
     width: 30vh;
     border-radius: 10px;
+}
+h2 {
+    font-family: var(--fonte-destaque);
+    color: white;
+}
+section {    
+    width: 100%;    
 }
