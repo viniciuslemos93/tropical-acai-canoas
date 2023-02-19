@@ -61,10 +61,10 @@ main {
     width: 30vh;
     border-radius: 10px;
 }
-h2 {
+.subtitulo {
     font-family: var(--fonte-destaque);
-    color: white;
+    color: var(--cor1);    
 }
-section {    
-    width: 100%;    
+section {
+    width: 100%;
 }
