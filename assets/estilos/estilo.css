@@ -46,7 +46,10 @@ main {
     max-width: 100%;
     min-width: 320px;    
 }
-
+.subtitulo {
+    color: var(--cor1);
+    font-family: var(--fonte-destaque);
+}
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -54,10 +57,10 @@ main {
     min-width: 320px;
     padding: 10px 15px;
     align-items: center;
-    margin: 0px 10px;    
+    margin: 0px 10px;
 }
 .imagem img{
-    width: 30vh;
+    width: 50vh;
     border-radius: 10px;
 }
 .subtitulo {
