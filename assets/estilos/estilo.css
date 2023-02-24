@@ -44,11 +44,12 @@ nav#menu {
 /*Estilização do corpo do site*/
 main {
     max-width: 100%;
-    min-width: 320px;    
+    min-width: 320px;
 }
 .subtitulo {
     color: var(--cor1);
     font-family: var(--fonte-destaque);
+    margin: 10px;
 }
 .container {
     display: flex;
