@@ -13,6 +13,7 @@
     --cor1: #3c0a2f;
     --cor2: #690E6B;
     --cor3: #653e99;
+    --cor4: #869f91;
 }
 /*Estilização do cabeçalho do site*/
 header {
@@ -50,7 +51,12 @@ main {
 .subtitulo {
     color: var(--cor1);
     font-family: var(--fonte-destaque);
-    margin: 10px;    
+    margin: 10px;
+}
+.preco {
+    background-color: var(--cor4);
+    padding: 0.3em;
+    border-radius: 5px;
 }
 #valores {
     background-color: var(--cor3);
@@ -60,6 +66,7 @@ main {
 #valores > div > p {
     color: white;
 }
+
 .container {
     display: flex;
     justify-content: space-evenly;
