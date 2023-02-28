@@ -17,6 +17,8 @@
     --cor3: #653e99;
     --cor4: #869f91;
     --cor5: #074c2f;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
 }
 /*Estilização do cabeçalho do site*/
 header {
@@ -27,14 +29,14 @@ nav#menu a{
     text-decoration: none;
     font-size: 1.5em;
     padding: 15px;
-    color: white;
+    color: var(--cor-branco);
     font-weight: bold;
 }
 nav#menu {
     margin: auto;
 }
 #logo {
-    margin: auto;    
+    margin: auto;
 }
 #logo img {
     width: 150px;
@@ -43,7 +45,7 @@ nav#menu {
 .pipe-menu {
     font-size: 2em;
     font-weight: bolder;
-    color: white;
+    color: var(--cor-branco);
     font-family: var(--fonte-conteudo);
 }
 /*Estilização do corpo do site*/
@@ -54,7 +56,7 @@ main {
 .title {
     color: var(--cor2);
     font-family: var(--fonte-titulo);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 2px 2px 0px var(--cor-preto)(0, 0, 0, 0.25);
 }
 .subtitulo {
     color: var(--cor1);
@@ -66,18 +68,34 @@ main {
     padding: 0.3em;
     margin-bottom: 0;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px var(--cor-preto);
 }
 #valores {
-    box-shadow: 0px 0px 10px black;
-    background-color: var(--cor5);
+    box-shadow: 0px 0px 10px var(--cor-preto);
+    background-color: var(--cor4);
     border-radius: 5px;
     max-width: 40%;
 }
 #valores > div > p{
-    color: white;
+    color: var(--cor-branco);
 }
+#complementos {
+    background-color: var(--cor4);
+    color: var(--cor-branco);
+}
+.lista-complementos {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    background-color: var(--cor3);
+    color: var(--cor-branco);
+}
+#complementos {
+    margin-right: 2em;
+}
+.extras {
 
+}
 .container {
     display: flex;
     justify-content: space-evenly;
