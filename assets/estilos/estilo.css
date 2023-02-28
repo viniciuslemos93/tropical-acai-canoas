@@ -66,6 +66,7 @@ main {
     padding: 0.3em;
     margin-bottom: 0;
     border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
 }
 #valores {
     box-shadow: 0px 0px 10px black;
