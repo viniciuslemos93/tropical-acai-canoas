@@ -14,6 +14,7 @@
     --cor2: #690E6B;
     --cor3: #653e99;
     --cor4: #869f91;
+    --cor5: #074c2f;
 }
 /*Estilização do cabeçalho do site*/
 header {
@@ -54,8 +55,9 @@ main {
     margin: 10px;
 }
 .preco {
-    background-color: var(--cor4);
+    background-color: var(--cor5);
     padding: 0.3em;
+    margin-bottom: 0;
     border-radius: 5px;
 }
 #valores {
@@ -63,7 +65,7 @@ main {
     border-radius: 5px;
     max-width: 40%;
 }
-#valores > div > p {
+#valores > div > p{
     color: white;
 }
 
