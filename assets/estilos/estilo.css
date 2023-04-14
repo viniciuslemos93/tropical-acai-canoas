@@ -138,3 +138,9 @@ ul {
     list-style: circle;
     color: var(--cor2);    
 }
+
+/*Responsividade para Mobile*/
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    
+
+}
