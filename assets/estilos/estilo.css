@@ -17,6 +17,7 @@
     --cor3: #653e99;
     --cor4: #869f91;
     --cor5: #074c2f;
+    --cor6: #ffa7e4;
     --cor-preto: #000000;
     --cor-branco: #ffffff;
 }
@@ -30,8 +31,15 @@ nav#menu a{
     font-size: 1.5em;
     padding: 15px;
     color: var(--cor-branco);
-    font-weight: bold;
+    font-weight: bold;    
 }
+
+#menu a:hover {
+    background-color: var(--cor1);
+    transition: 0.5s;
+    border-radius: 5px;    
+}
+
 nav#menu {
     margin: auto;
 }
@@ -50,8 +58,9 @@ nav#menu {
 }
 /*Estilização do corpo do site*/
 main {
-    max-width: 100%;
-    min-width: 320px;    
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
 }
 .title {
     color: var(--cor2);
@@ -67,8 +76,7 @@ main {
     background-color: var(--cor1);
     padding: 0.3em;
     margin-bottom: 0;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px var(--cor-preto);
+    border-radius: 5px;    
 }
 #valores {
     box-shadow: 0px 0px 10px var(--cor-preto);
@@ -79,35 +87,22 @@ main {
 #valores > div > p{
     color: var(--cor-branco);
 }
-#complementos {
+aside.complementos {
+    margin: 30px;
     background-color: var(--cor4);
-    color: var(--cor-branco);
+    box-shadow: 0px 0px 10px var(--cor-preto);
 }
 .lista-complementos {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
-    columns: 2;
+    columns: 2;    
     background-color: var(--cor3);
-    color: var(--cor-branco);
-}
-#complementos {
-    margin-right: 2em;
-}
-.lista-complementos > p {
-    font-family: var(--fonte-conteudo);
-    font-size: 1.5em;
-    font-weight: bold;
+    color: var(--cor-branco);    
 }
 .extras {
     list-style-type: '\2714\00A0\00A0';
     background-color: var(--cor3);
     list-style-position: inside;
-    color: var(--cor-branco);
-}
-.extras > p {
-    font-family: var(--fonte-conteudo);
-    font-size: 1.5em;
-    font-weight: bold;
     color: var(--cor-branco);
 }
 .container {
@@ -125,7 +120,7 @@ main {
 }
 .subtitulo {
     font-family: var(--fonte-destaque);
-    color: var(--cor1);    
+    color: var(--cor1);
 }
 .imagem-carrossel {
     max-width: 100%;
@@ -138,6 +133,15 @@ ul {
     list-style: circle;
     color: var(--cor2);    
 }
+/*Classes fora de elementos*/
+.box-shadow {
+    box-shadow: 0px 0px 10px var(--cor-preto);
+}
+.tarja-titulo {
+    background-image: linear-gradient(to right, var(--cor5), transparent);
+    border-radius: 3px;
+}
+
 
 /*Responsividade para Mobile*/
 @media screen and (min-width: 320px) and (max-width: 576px) {
